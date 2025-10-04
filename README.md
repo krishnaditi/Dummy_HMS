@@ -23,14 +23,16 @@ Task to mentees --> 4th Oct 2025
 12. Once done, and database is getting created, commit your changes.
 13. Setting up or predefining the code for admin credentials in app.py file.
 14. Once done commit this change as well.
-15. Create a route for Patient Registration HTML page --> to render the HTML page.
-16. Create a route for Login of 3 users --> Admin, Doctor and Patient --> to render the HTML page.
-17. Create a basic HTML page for --> Admin Dashboard.
-18. Create a basic HTML page for --> Doctor Dashboard.
-19. Create a basic HTML page for --> Patient Dashboard.
-20. Create a route for Admin Dashboard HTML page --> to render the HTML page.
-21. Create a route for Doctor Dashboard HTML page --> to render the HTML page.
-22. Create a route for Patient Dashboard HTML page --> to render the HTML page.
-23. Once done, commit the changes of registration and login, with dashboard routes and HTML pages.
-24. After cross reviewing your task with me, then only you will push your codes on github repository.
+15. Create a base.html page --> containing the rules of flashing the message for success and danger.
+16. Template inheritance is done in registration.html and login.html file from base.html file, using jinja2.
+17. Create a route for Patient Registration HTML page --> to render the HTML page.
+18. Create a route for Login of 3 users --> Admin, Doctor and Patient --> to render the HTML page.
+19. Create a basic HTML page for --> Admin Dashboard.
+20. Create a basic HTML page for --> Doctor Dashboard.
+21. Create a basic HTML page for --> Patient Dashboard.
+22. Create a route for Admin Dashboard HTML page --> to render the HTML page.
+23. Create a route for Doctor Dashboard HTML page --> to render the HTML page.
+24. Create a route for Patient Dashboard HTML page --> to render the HTML page.
+25. Once done, commit the changes of registration and login, with dashboard routes and HTML pages.
+26. After cross reviewing your task with me, then only you will push your codes on github repository.
 
