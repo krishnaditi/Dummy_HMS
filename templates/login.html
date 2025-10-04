@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>login page</title>
+    <title>Login Page</title>
 </head>
 <body>
-    <h1>login</h1>
-    <form>
+    <h1>Login</h1>
+    <form action="/login" method="POST">
+        <label for="role">Role:</label>
+        <select id="role" name="role" required>
+            <option value="">--Select Role--</option>
+            <option value="admin">Admin</option>
+            <option value="seller">Seller</option>
+            <option value="customer">Customer</option>
+        </select><br><br>
+
         <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required><br>
+        <input type="text" id="username" name="username" required><br><br>
 
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br>
+        <input type="password" id="password" name="password" required><br><br>
 
         <input type="submit" value="Login">
     </form>
