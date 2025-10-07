@@ -36,3 +36,37 @@ Task to mentees --> 4th Oct 2025
 25. Once done, commit the changes of registration and login, with dashboard routes and HTML pages.
 26. After cross reviewing your task with me, then only you will push your codes on github repository.
 
+
+Task to mentees --> 7th Oct 2025
+
+27. Create a HTML Page for --> creating department --> done by admin.
+28. Create a route for creating department HTML page --> to render the HTML page.
+29. Create a button on admin dashboard --> to redirect to create department page.
+30. Table creation showing the list of all the present departments --> with edit and delete button --> on admin dashboard.
+31. Using jinja2, all the details of departments are shown on admin dashboard inside the table.
+32. Create a HTML page --> for editing the department --> done by  admin.
+33. Create a route for editing the department HTML page --> to render the HTML page.
+34. Create a route for deleting the department --> done by  admin.
+35. Once done, commit all the changes done till now.
+36. After cross reviewing your task with me, then only you will push your codes on github repository.
+37. Create a HTML page --> for creating doctors profile --> done by  admin.
+38. Create a route for creating doctors profile HTML page --> to render the HTML page.
+39. Create a button on admin dashboard --> to redirect to create doctor profile page.
+40. Table creation showing the list of all the present doctors --> with edit, blacklist and delete button --> on admin dashboard.
+41. Using jinja2, all the details of doctors are shown on admin dashboard inside the table.
+42. Table creation showing the list of all the present patients --> with edit, blacklist and delete button --> on admin dashboard.
+43. Using jinja2, all the details of patients are shown on admin dashboard inside the table.
+44. Create a HTML page --> for editing the doctor profile --> done by  admin.
+45. Create a route for editing the doctor profile HTML page --> to render the HTML page.
+46. Create a HTML page --> for editing the patient profile --> done by  admin.
+47. Create a route for editing the patient profile HTML page --> to render the HTML page.
+48. Create a route for deleting the doctor profile --> done by  admin.
+49. Create a route for deleting the patient profile --> done by  admin.
+50. Create a route for blacklisting the doctor profile --> done by  admin.
+51. Create a route for blacklisting the patient profile --> done by  admin.
+52. Once done, commit all the changes done till now.
+53. After cross reviewing your task with me, then only you will push your codes on github repository.
+54. Create a Search bar on admin dashboard --> to search the doctor and patient by name.
+55. Create a route for searching the doctor and patient by name --> to render the HTML page with searched details.
+56. Once done, commit all the changes done till now.
+57. After cross reviewing your task with me, then only you will push your codes on github repository.
