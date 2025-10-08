@@ -11,7 +11,7 @@ class Admin(db.Model):
     role = db.Column(db.String(20), default="admin", nullable=False)
 
     # One Admin can create many Sellers
-    sellers = db.relationship('Seller', backref='created_by', lazy=True)
+    sellers = db.relationship('Seller', backref='created_by_admin', lazy=True)
 
 
 class Seller(db.Model):
@@ -27,7 +27,7 @@ class Seller(db.Model):
     status = db.Column(db.String(20), default="active", nullable=False)
 
     # Link to Admin
-    admin_id = db.Column(db.Integer, db.ForeignKey('admin.id'), nullable=False)
+    admin_id = db.Column(db.Integer, db.ForeignKey('admin.id'), nullable=True)
 
     # Seller has many storage items
     storages = db.relationship('Storage', backref='seller', lazy=True)
