@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}Admin Dashboard{% endblock %}
+
+{% block content %}
+<h2>Admin Dashboard</h2>
+<p>Welcome to the Admin Dashboard!</p>
+
+<button onclick="location.href='/create_seller'">Create New Seller</button>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Contact</th>
+            <th>Storage Capacity</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for seller in sellers %}
+        <tr>
+            <td>{{ seller.id }}</td>
+            <td>{{ seller.username }}</td>
+            <td>{{ seller.email }}</td>
+            <td>{{ seller.contact }}</td>
+            <td>{{ seller.storage_capacity }}</td>
+            <td>
+                <a href="/edit_seller/{{ seller.id }}">Edit</a> |
+                <a href="/delete_seller/{{ seller.id }}">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+{% endblock %}
